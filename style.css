@@ -46,7 +46,21 @@ textarea {
     height: 30px;
     background-color:#3964c2;
     border: 0;
+    border-radius: 5px;
     color: white;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button:active {
+    font-size: 0.75em;
+    height: 25px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
 }
 
 #star {
