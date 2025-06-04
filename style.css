@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(228, 225, 225);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgb(75, 74, 74);
+    padding: 20px 20px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    padding: 10px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.field input {
+    height: 25px;
+}
+
+.field select {
+    height: 30px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.button {
+    height: 30px;
+    background-color:#3964c2;
+    border: 0;
+    color: white;
+}

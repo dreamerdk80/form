@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Обратная связь</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <form action="" method="">
+            <div class="container">
+                <h1>Обратная связь</h1>
+                <div class="fields">
+                    <div class="field">
+                        <label for="name">Имя:</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="phone">Телефон:</label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="theme">Тема сообщения:</label>
+                        <select name="theme" id="theme" required>
+                            <option value="theme-1">-- Выберите тему --</option>
+                            <option value="theme-2">Вопрос</option>
+                            <option value="theme-3">Жалоба</option>
+                            <option value="theme-4">Предложение</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="message">Сообщение:</label>
+                        <textarea name="message" id="message" required></textarea>
+                    </div>
+
+                    <div>
+                        <label for="consent">
+                            <input type="checkbox" id="consent" required>
+                            <span>Я согласен на обработку персональных данных</span>
+                        </label>
+                    </div>
+
+                    <input type="submit" class="button" value="Отправить">
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
