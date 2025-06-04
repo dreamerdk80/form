@@ -60,7 +60,8 @@ textarea {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 5px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
 }
 
 #star {
